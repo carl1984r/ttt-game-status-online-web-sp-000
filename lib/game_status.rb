@@ -48,6 +48,6 @@ end
 def winner(board)
   if over?(board) == true && draw?(board) == false
     return board[win?(board)[0]]
-  
+end
 
 end
